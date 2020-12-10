@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Bold.eot');
+    src: local('Futura PT Bold'), local('FuturaPT-Bold'),
+        url('./fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Bold.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Bold.woff') format('woff'),
+        url('./fonts/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Heavy.eot');
+    src: local('Futura PT Heavy'), local('FuturaPT-Heavy'),
+        url('./fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Heavy.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Heavy.woff') format('woff'),
+        url('./fonts/FuturaPT-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPTCond-Book.eot');
+    src: local('Futura PT Cond Book'), local('FuturaPTCond-Book'),
+        url('./fonts/FuturaPTCond-Book.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-Book.woff2') format('woff2'),
+        url('./fonts/FuturaPTCond-Book.woff') format('woff'),
+        url('./fonts/FuturaPTCond-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Demi.eot');
+    src: local('Futura PT Demi'), local('FuturaPT-Demi'),
+        url('./fonts/FuturaPT-Demi.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Demi.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Demi.woff') format('woff'),
+        url('./fonts/FuturaPT-Demi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-ExtraBold.eot');
+    src: local('Futura PT Extra Bold'), local('FuturaPT-ExtraBold'),
+        url('./fonts/FuturaPT-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-ExtraBold.woff2') format('woff2'),
+        url('./fonts/FuturaPT-ExtraBold.woff') format('woff'),
+        url('./fonts/FuturaPT-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPTCond-Medium.eot');
+    src: local('Futura PT Cond Medium'), local('FuturaPTCond-Medium'),
+        url('./fonts/FuturaPTCond-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-Medium.woff2') format('woff2'),
+        url('./fonts/FuturaPTCond-Medium.woff') format('woff'),
+        url('./fonts/FuturaPTCond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Medium.eot');
+    src: local('Futura PT Medium'), local('FuturaPT-Medium'),
+        url('./fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Medium.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Medium.woff') format('woff'),
+        url('./fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPTCond-ExtraBold.eot');
+    src: local('Futura PT Cond Extra Bold'), local('FuturaPTCond-ExtraBold'),
+        url('./fonts/FuturaPTCond-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-ExtraBold.woff2') format('woff2'),
+        url('./fonts/FuturaPTCond-ExtraBold.woff') format('woff'),
+        url('./fonts/FuturaPTCond-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPTCond-Bold.eot');
+    src: local('Futura PT Cond Bold'), local('FuturaPTCond-Bold'),
+        url('./fonts/FuturaPTCond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPTCond-Bold.woff2') format('woff2'),
+        url('./fonts/FuturaPTCond-Bold.woff') format('woff'),
+        url('./fonts/FuturaPTCond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Book.eot');
+    src: local('Futura PT Book'), local('FuturaPT-Book'),
+        url('./fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Book.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Book.woff') format('woff'),
+        url('./fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Light.eot');
+    src: local('Futura PT Light'), local('FuturaPT-Light'),
+        url('./fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Light.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Light.woff') format('woff'),
+        url('./fonts/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('EBGaramond-Regular.eot');
+    src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
+        url('./fonts/EBGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/EBGaramond-Regular.woff2') format('woff2'),
+        url('./fonts/EBGaramond-Regular.woff') format('woff'),
+        url('./fonts/EBGaramond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:focus{
+    outline: none;
+}
+body{
+    font-family: 'Futura PT', sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+header{
+    margin: 25px 0;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logoCenter{
+    width: calc(50% + 87px);
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    width: 174px;
+}
+.contactBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.tel{
+    font-family: 'EB Garamond',serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0A0103;
+    text-decoration: none;
+}
+.callback{
+    background: transparent;
+    line-height: 21px;
+    color: #0A0103;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
+nav{
+    width: 100%;
+    margin-top: 28px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    font-size: 15px;
+    line-height: 19px;
+    color: #0A0103;
+    list-style-type: none;
+    margin: 15px 0;
+}
+nav ul li:not(:last-child){
+    margin-right: 15px;
+}
+h1{
+    font-family: 'EB Garamond',serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 102.5%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+}
+.firstScreen{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:52px 0 130px ;
+}
+.firstScreen p {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    margin: 13px 0 50px;
+}
+.coast{
+    border: 1px solid white;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 14px 40px;
+    background-color: transparent;
+    position: relative;
+    left: calc(50% - 105px);
+    outline: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+.coast:hover{
+    transform: scale(1.05);
+}
+@media (max-width:1340px){
+    .container{
+        padding: 0 30px;
+    }
+}
+@media (max-width:655px){
+    nav ul{
+        justify-content: flex-start;
+    }
+    .logoCenter{
+        width: max-content;
+    }
+}
+@media (max-width:380px){
+    .logoCenter{
+        margin: 10px 0;
+    }
+    header .row{
+        flex-direction: column;
+    }
+    .contactBlock{
+        align-items: flex-start;
+    }
+    nav {
+        margin-top: 10px;
+    }
+    .callback{
+        margin-top: 10px;
+    }
+}
