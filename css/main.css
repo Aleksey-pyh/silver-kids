@@ -17,7 +17,7 @@
 }
 .firstItem{
     padding: 40px 33px;
-    background-color: #FFFFFF90;
+    background-color: RGBA(255,255,255,0.9);
     margin: 35px 0;
 }
 .firstItem p{
@@ -53,7 +53,7 @@ h2{
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
-    background-color: #FFFFFF90;
+    background-color: RGBA(255,255,255,0.9);
     width: 100%;
     padding: 30px 0;
 }
@@ -98,7 +98,7 @@ h2{
     flex-wrap: wrap;
 }
 .leftItem {
-    background-color: #FFFFFF90;
+    background-color: RGBA(255,255,255,0.9);
     padding: 22px 50px 21px;
     height: max-content;
     max-width: calc(50% - 100px);

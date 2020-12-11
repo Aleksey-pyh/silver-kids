@@ -339,6 +339,7 @@ h1{
         justify-content: center;
         transform: translateX(-500%);
         transition: all .3s;
+        z-index: 9;
     }
     .activeNav{
         transform: none;
