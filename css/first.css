@@ -250,7 +250,7 @@ h1{
     padding: 14px 40px;
     background-color: transparent;
     position: relative;
-    left: calc(50% - 105px);
+    left: calc(50% - 120px);
     outline: none;
     cursor: pointer;
     transition: all .3s;
