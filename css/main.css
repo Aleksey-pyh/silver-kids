@@ -1,0 +1,201 @@
+.secondScreen{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+}
+.secondScreen .container{
+    display: flex;
+    justify-content: space-between;
+}
+.leftContainer{
+    max-width: 60%;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstItem{
+    padding: 40px 33px;
+    background-color: #FFFFFF90;
+    margin: 35px 0;
+}
+.firstItem p{
+    margin: 30px 0;
+}
+h2{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 35px;
+    line-height: 109.2%;
+    text-align: center;
+}
+.leftContainer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 149.7%;
+    text-align: center;
+}
+.rigthContainer{
+    max-width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rigthContainer img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondItem{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF90;
+    width: 100%;
+    padding: 30px 0;
+}
+.secondItem div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondItem div:first-child{
+    margin-right: 40px;
+}
+.thirdSreen{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 0 20px 0;
+}
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.catalogItem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 25px 28px 25px 0 ;
+}
+.catalog .catalogItem:nth-child(4),.catalog .catalogItem:nth-child(8),.catalog .catalogItem:nth-child(12),.catalog .catalogItem:nth-child(16){
+    margin-right: 0;
+}
+.fourScreen{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+}
+.fourScreen .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.leftItem {
+    background-color: #FFFFFF90;
+    padding: 22px 50px 21px;
+    height: max-content;
+    max-width: calc(50% - 100px);
+}
+.rigthItem{
+    max-width: calc(50% - 40px);
+}
+.rigthItem img{
+    object-fit: contain;
+    padding: 0 20px;
+    max-width: calc(100% - 40px);
+}
+.leftItem h2{
+    width: 100%;
+    text-align: start;
+}
+.leftItem p{
+    padding: 20px 0;
+}
+@media(max-width:1174px){
+    .catalog .catalogItem:nth-child(4),.catalog .catalogItem:nth-child(8),.catalog .catalogItem:nth-child(12),.catalog .catalogItem:nth-child(16){
+        margin-right: 28px;
+    }
+    .catalog .catalogItem:nth-child(3),.catalog .catalogItem:nth-child(6),.catalog .catalogItem:nth-child(9),.catalog .catalogItem:nth-child(12),.catalog .catalogItem:nth-child(15){
+        margin-right: 0;
+    }
+}
+@media(max-width:1100px){
+    .secondScreen .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rigthContainer{
+        max-width: max-content;
+        margin: 25px 0;
+    }
+    .leftContainer{
+        max-width: 600px;
+        margin-right: 0;
+    }
+    .leftContainer br{
+        display: none;
+    }
+    .secondItem{
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondItem div:first-child{
+        margin: 10px 0;
+    }
+    .secondItem div{
+        padding: 0 15px;
+    }
+    .leftItem br{
+        display: none;
+    }
+}
+@media(max-width:891px){
+    .catalog .catalogItem{
+        margin: 20px 15px!important;
+    }
+    .catalog{
+        justify-content: center;
+    }
+    .fourScreen .container{
+        flex-direction: column;
+    }
+    .leftItem{
+        max-width: max-content;
+    }
+    .rigthItem{
+        max-width: calc(100% - 40px);
+        margin-top: 15px;
+    }
+}
+@media(max-width:642px){
+    .catalogItem {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media(max-width:565px){
+    .firstItem{
+        padding: 20px 5px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .leftContainer p{
+        font-size: 14px;
+    }
+    .leftItem{
+        padding: 20px 5px;
+    }
+    .leftItem p{
+        padding: 10px 0;
+        font-size: 14px;
+    }
+}

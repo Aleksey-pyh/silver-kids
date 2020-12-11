@@ -167,6 +167,9 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.burgerButt{
+    display: none;
+}
 .logoCenter{
     width: calc(50% + 87px);
     display: flex;
@@ -261,27 +264,140 @@ h1{
     }
 }
 @media (max-width:655px){
-    nav ul{
-        justify-content: flex-start;
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     .logoCenter{
         width: max-content;
     }
+    .firstScreen{
+        background-position: left;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .firstScreen p{
+        font-size: 18px;
+    }
+    .logoCenter {
+        margin: 10px 0;
+        order: 3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .burgerButt{
+        display: flex;
+        flex-direction: column;
+        width: 40px;
+        height: 23px;
+    }
+    .burgerButt span{
+        width: 30px;
+        height: 3px;
+        background-color: #0A0103;
+        margin-bottom:4px ;
+        transition: all .3s;
+        opacity: 1;
+    }
+    .burgerButt span:first-child{
+        transform-origin: 0% 0%;
+    }
+    .burgerButt span:last-child{
+        transform-origin: 0% 100%;
+    }
+    .activeBurger{
+        position: fixed;
+        z-index: 10;
+    }
+    .burgerButt.activeBurger span:first-child{
+        transform: rotate(45deg) translate(-3px, -1px);
+    }
+    .burgerButt.activeBurger span:nth-child(2){
+        opacity: 0;
+    }
+    .burgerButt.activeBurger span:last-child{
+        transform: rotate(-45deg) translate(-4px, 1px);
+    }
+    .contactBlock {
+        align-items: flex-end;
+        order: 2;
+    }
+    nav {
+        margin-top: 0;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(255,255,255,0.9);
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-500%);
+        transition: all .3s;
+    }
+    .activeNav{
+        transform: none;
+    }
+    .callback{
+        margin-top: 10px;
+    }
+    .tel,.callback{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 19px;
+        color: #0A0103;
+        text-transform: lowercase;
+    }
+    .tel,nav ul li{
+        font-size: 18px;
+        text-align: center;
+    }
 }
 @media (max-width:380px){
-    .logoCenter{
+    .logoCenter {
         margin: 10px 0;
+        order: 3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
-    header .row{
-        flex-direction: column;
-    }
-    .contactBlock{
-        align-items: flex-start;
+    .contactBlock {
+        align-items: flex-end;
+        order: 2;
     }
     nav {
         margin-top: 10px;
     }
     .callback{
         margin-top: 10px;
+    }
+    .tel,.callback{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 19px;
+        color: #0A0103;
+        text-transform: lowercase;
+    }
+    .tel,nav ul li{
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h1 br{
+        display: none;
+    }
+    .coast{
+        left: 0;
+        width: 100%;
     }
 }
